@@ -1,0 +1,20 @@
+{
+  "name": "passkey-sdk",
+  "version": "0.0.1",
+  "description": "passkey sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tada16/passkey-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tada16/passkey-sdk/issues"
+  },
+  "homepage": "https://github.com/tada16/passkey-sdk#readme"
+}
