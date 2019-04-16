@@ -1,6 +1,12 @@
 language: node_js
-    node_js:
-      - "6"
-      - "5"
-      - "4"
-      - "4.4.3"
+node_js:
+  - "node"
+  - "8"
+  - "7"
+  - "6"
+  - "5"
+
+# safelist
+branches:
+  only:
+  - master
