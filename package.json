@@ -1,20 +1,38 @@
 {
   "name": "passkey-sdk",
-  "version": "0.0.1",
-  "description": "passkey sdk",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Passkey SDK for JavaScript",
+  "main": "lib/index.js",
+  "author": {
+    "name": "NJS",
+    "email": ""
+  },
+  "contributors": [
+    "tada16"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tada16/passkey-sdk/issues"
+  },
+  "homepage": "https://github.com/tada16/passkey-sdk#readme",
+  "keywords": [],
   "scripts": {
-    "test": "echo \"test OK\" && exit 0"
+    "test": "npm run lint",
+    "cover": "istanbul cover --print both _mocha --require intelli-espower-loader --recursive test",
+    "unittest": "istanbul cover --print both _mocha --require intelli-espower-loader --recursive ",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tada16/passkey-sdk.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tada16/passkey-sdk/issues"
-  },
-  "homepage": "https://github.com/tada16/passkey-sdk#readme"
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^6.1.3",
+    "istanbul": "^1.0.0-alpha.2",
+    "power-assert": "^1.6.1"
+  }
 }
