@@ -1,6 +1,6 @@
 {
   "name": "passkey-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Passkey SDK for JavaScript",
   "main": "lib/index.js",
   "author": {
@@ -34,5 +34,8 @@
     "mocha": "^6.1.3",
     "istanbul": "^1.0.0-alpha.2",
     "power-assert": "^1.6.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
