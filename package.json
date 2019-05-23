@@ -1,6 +1,6 @@
 {
   "name": "passkey-sdk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Passkey SDK for JavaScript",
   "main": "lib/index.js",
   "author": {
